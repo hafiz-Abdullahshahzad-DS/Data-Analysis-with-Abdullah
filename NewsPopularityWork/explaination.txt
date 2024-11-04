@@ -1,0 +1,21 @@
+can you help me with my projet :Introduction
+This project focuses on predicting the popularity of articles based on metadata associated with these articles.
+1. Loading and Preparing Real Data
+Consider the popularity dataset available on Kaggle: https://www.kaggle.com/datasets/thehapyone/uci-online-news-popularity-data-set
+1. Load the dataset and describe it, with particular attention to the target variable and its relationships
+with the explanatory variables, one by one.
+2. Prediction
+Our initial interest lies in the problem of prediction.
+2. Select three prediction methods(with justification) and apply the following dimensionality
+reduction methods: - None - PCA (Principal Component Analysis) - UMAP (Uniform Manifold Approximation and Projection)
+These combinations provide nine potential prediction methods for your problem. Discuss their respective advantages and disadvantages and the usefulness of dimensionality reduction in this context. Implement all
+or some of these methods and decide which you would choose
+3. Evaluate the performance of each method, both generally and based on the actual value of the target variable.
+3. Variable Selection and Influence
+Now, we focus on dimension reduction through the selection of relevant variables.
+4. Perform a reduction using the following approaches: - A penalized linear model with stability selection.
+- A selection based on a threshold for variable correlation with the target, followed by a chosen prediction
+method.
+Which method do you retain? What variables are preserved?
+5. Only if everything else is completed: conduct a study on the relative importance of variables within
+this reduced model.
